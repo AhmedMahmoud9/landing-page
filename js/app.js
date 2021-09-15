@@ -95,11 +95,9 @@ for(let i = 1; i <= pageSection.length; i++){
             if(entry.isIntersecting){
                 pageSection[i-1].setAttribute("class","your-active-class")
                 navLink.setAttribute("class","menu__link__target")
-                // navLink.style.cssText = 'background:#000; color:#fff;'
             }
             else{
                 pageSection[i-1].removeAttribute("class","your-active-class");
-                // navLink.removeAttribute("class","menu__link__target")
                 navLink.setAttribute("class","menu__link")
 
             }
